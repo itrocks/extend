@@ -1,0 +1,14 @@
+{
+	"authors":     [{ "name": "Baptiste Pillot", "email": "baptiste@pillot.fr" }],
+	"autoload":    { "classmap": ["src/Extend.php"], "psr-4": { "ITRocks\\Extend\\": "src/" } },
+	"description": "Some annotations to simulate more multi-inheritance in PHP",
+	"homepage":    "https://github.com/itrocks/extend",
+	"license":     "LGPL-3.0-or-later",
+	"minimum-stability": "dev",
+	"name":    "itrocks/extend",
+	"require": { "php": ">=8.1" },
+	"suggest": {
+		"itrocks/build": "An implementation of class building using #Extend and #Implement definitions"
+	},
+	"type": "library"
+}
